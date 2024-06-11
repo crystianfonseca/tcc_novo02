@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: #080C3A;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Prompt', sans-serif;
+
+
+@font-face {
+    font-family: 'Gabarito', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+}
+
+#cartao{
+    display: flex;
+    margin: auto;
+    /*align-items: center;
+    justify-content: center;*/
+    width: 38%;
+    height: 500%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-left: 34%;
+}
+
+
+.azul{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    width: 45%;
+    height: 1002px;
+    background-color: #080C3A;
+    border-radius: 20px;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    margin-left: -18%;
+    margin-top: 0%; 
+}
+
+
+#carrobranco{
+    /*max-width: 100%;
+    padding-top: 100%;
+    margin-left: 28%;
+    /* margin-right: 60%;
+    margin-top: -180%; 
+    position: relative;*/
+    width: 48%;
+    float: left;
+    margin-top: -470px;
+}
+
+.container-logo p{
+    width: 30%;
+    margin-right: 60px;
+    float: right;
+    margin-top: -410px;
+}
+
+.parte-branca{
+    /*display: flex;
+    flex-direction: column;*/
+    width: 70%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+#solicite_agendamento {
+    color: #FF5C00;
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+    font-style: normal;
+    margin-left: 21%;
+    margin-top: 10%;
+    font-size: 150%;
+
+}
+
+
+
+
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-top: 30px;
+    /*justify-content: center;*/
+    /*margin-left: -38%;*/
+
+
+}
+
+#text-agende{
+    color: white;
+    font-size: 140%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    /* margin-top: 40%;
+    margin-right: -60%; */
+    margin-top: -10%;
+
+
+}
+
+::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+#txt-dados1{
+    color: white;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: -25%;
+    font-size: 115%;
+
+}
+
+
+
+#inputs-form{
+
+   color: orangered;
+   text-align: center;
+   font-size: larger;
+   font-family: "Poppins", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+   margin-top: 1000%;
+   padding: 40px;
+}
+
+
+input{
+    margin: 7px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(148, 148, 148);
+
+
+}
+
+input-form{
+    /* text-align: left;
+    /*position: absolute;*/
+    /* padding: 10px; */
+    /*left: 48%;
+    top: 189px;*/
+    /* border-radius: 16px;
+    text-align: 20%;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 20%;
+    margin-left: 87%;
+    margin-top: 2%; */
+
+
+}
+
+#coluna1.coluna1{
+    width: 100%;
+    font-size: 81%;
+    margin-top: 4%;
+
+
+}
+
+
+
+
+#serviços_oferecidos{
+    font-size: 85%;
+    margin-left: 2%;
+    width: 100%;
+    margin-top: 2%;
+
+
+}
+
+
+#cadastrar{
+    background-color: #FF5C00;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    border-width: 0px;
+    font-family: "Poppins", sans-serif;
+       font-weight: 900;
+       font-style:initial;
+
+    margin-left: 36%;
+    margin-top: 8%;
+
+
+}
+#cadastrar:hover{
+    transition: 0.5s all;
+    background-color:rgb(8, 12, 58);
+    color: #ffffff;
+}
+
+@media (max-width: 320px) {
+
+    #cartao{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        /*align-items: center;
+        justify-content: center;*/
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        margin-top: 15%;
+        margin-left: 6%;
+        height: 518%;
+        width: 88%;
+    }
+
+
+    .azul{
+        display: flex;
+        flex-direction: column;
+        /*align-items: center;*/
+        justify-content: center;
+        width: 100%;
+        height: 9%;
+        background-color: #080C3A;
+        border-radius: 20px;
+        border: solid;
+        border-color: #ffffff;
+        border-width: 2px;
+        margin-left: -0%;
+        margin-top: 0%; 
+    }
+
+
+    #carrobranco{
+        /*max-width: 100%;
+        padding-top: 100%;
+        margin-left: 28%;
+        /* margin-right: 60%;
+        margin-top: -180%; 
+        position: relative;*/
+        width: 40%;
+        float: left;
+        margin-top: 14%;
+    }
+
+    .container-logo p{
+        width: 30%;
+        margin-right: 42px;
+        float: right;
+        margin-top: 75px;
+
+    }
+
+    .parte-branca{
+        /*display: flex;
+        flex-direction: column;*/
+        width: 120%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;  
+    }
+
+
+    #solicite_agendamento {
+        color: #FF5C00;
+        font-family: "Poppins", sans-serif;
+        width: -20%;
+        font-style: normal;
+
+        margin-top: 2%;
+        font-size: 100%;
+        text-align: center;
+        margin-left: -3%;
+
+    }
+
+
+    #serviços_oferecidos{
+        font-size: 85%;
+        margin-left: 2%;
+        width: 100%;
+        margin-top: 2%;
+        text-align: left;
+
+    }
+
+    #coluna1.coluna1{
+
+        font-size: 85%;
+         width: -20%;
+
+
+    }
+
+
+
+    form{
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: -20%;
+        margin-top: 2%;
+        /*justify-content: center;*/
+        /*margin-left: -38%;*/
+        width: 70%;
+
+
+    }
+
+    #text-agende{
+        color: white;
+        font-size: larger;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+
+        /* margin-top: 40%;
+        margin-right: -60%; */
+        margin-top: 100px;
+
+
+    }
+
+    ::placeholder{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    }
+
+
+    #txt-dados1{
+        color: white;
+        font-size: 10px;
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+
+
+    #inputs-form{
+
+       color: orangered;
+       text-align: center;
+       font-size: larger;
+       font-family: "Poppins", sans-serif;
+       font-weight: 900;
+       font-style: normal;
+       margin-top: 1000%;
+       padding: 40px;
+    }
+
+
+    input{
+        margin: 7px;
+        padding: 10px;
+        border-radius: 10px;
+        /*width: 100%;*/
+        border-style: groove;
+        border-color: rgb(148, 148, 148);
+
+    }
+
+    input-form{
+        /* text-align: left;
+        /*position: absolute;*/
+        /* padding: 10px; */
+        /*left: 48%;
+        top: 189px;*/
+        /* border-radius: 16px;
+        text-align: 20%;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 20%;
+        margin-left: 87%;
+        margin-top: 2%; */
+
+
+    }
+
+
+    #cadastrar{
+        background-color: #FF5C00;
+        color: white;
+        padding: 10px;
+        border-radius: 12px;
+        cursor: pointer;
+        border-width: 0px;
+        font-family: "Poppins", sans-serif;
+           font-weight: 900;
+           font-style:initial;
+        margin-top: 10%;
+        margin-left: 25%;
+
+
+    }
+    #cadastrar:hover{
+        transition: 0.5s all;
+        background-color:rgb(8, 12, 58);
+        color: #ffffff;
+    }
+
+
+}

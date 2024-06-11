@@ -1,0 +1,388 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #080C3A;
+  font-family: 'Gabarito', cursive;
+  font-family: 'Pixelify Sans', cursive;
+  font-family: 'Prompt', sans-serif;
+
+
+@font-face {
+  font-family: 'Gabarito', cursive;
+  font-family: 'Pixelify Sans', cursive;
+  font-family: 'Prompt', sans-serif;
+
+}
+
+}
+
+#cartao{
+  display: flex;
+  margin: auto;
+  /*align-items: center;
+  justify-content: center;*/
+  width: 38%;
+  height: 555px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin-top: 3%;
+  margin-left: 34%;
+}
+
+
+.azul{
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: center;
+  width: 45%;
+  height: 555px;
+  background-color: #080C3A;
+  border-radius: 20px;
+  border: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  margin-left: -18%;
+  margin-top: 0%; 
+}
+
+
+#carrobranco{
+  /*max-width: 100%;
+  padding-top: 100%;
+  margin-left: 28%;
+  /* margin-right: 60%;
+  margin-top: -180%; 
+  position: relative;*/
+  width: 48%;
+  float: left;
+  margin-top: -200px;
+}
+
+.container-logo p{
+  width: 30%;
+  margin-right: 52px;
+  float: right;
+  margin-top: -168px;
+}
+
+.parte-branca{
+  /*display: flex;
+  flex-direction: column;*/
+  width: 70%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+#solicite_agendamento {
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  font-style: normal;
+  margin-left: 11%;
+  margin-top: 10%;
+  font-size: larger;
+
+}
+
+
+
+
+
+form{
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 33px;
+  margin-right: 33px;
+  margin-top: 30px;
+  /*justify-content: center;*/
+  /*margin-left: -38%;*/
+
+
+}
+
+#text-agende{
+  color: white;
+  font-size: larger;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  /* margin-top: 40%;
+  margin-right: -60%; */
+  margin-top: -10%;
+
+}
+
+::placeholder{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+#txt-dados1{
+  color: white;
+  width: 50%;
+  margin-left: 20px;
+}
+
+
+
+#inputs-form{
+
+ color: orangered;
+ text-align: center;
+ font-size: larger;
+ font-family: "Poppins", sans-serif;
+ font-weight: 900;
+ font-style: normal;
+ margin-top: 1000%;
+ padding: 40px;
+}
+
+
+input{
+  margin: 7px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  border-style: groove;
+  border-color: rgb(148, 148, 148);
+
+}
+
+input-form{
+  /* text-align: left;
+  /*position: absolute;*/
+  /* padding: 10px; */
+  /*left: 48%;
+  top: 189px;*/
+  /* border-radius: 16px;
+  text-align: 20%;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 20%;
+  margin-left: 87%;
+  margin-top: 2%; */
+
+
+}
+
+
+#cadastrar{
+  background-color: #FF5C00;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  border-width: 0px;
+  font-family: "Poppins", sans-serif;
+     font-weight: 900;
+     font-style:initial;
+
+  margin-left: 36%;
+
+
+}
+#cadastrar:hover{
+  transition: 0.5s all;
+  background-color:rgb(8, 12, 58);
+  color: #ffffff;
+}
+
+@media (max-width: 320px) {
+
+  #cartao{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      /*align-items: center;
+      justify-content: center;*/
+      background-color: #FFFFFF;
+      border-radius: 20px;
+      margin-top: 15%;
+      margin-left: 6%;
+      height: 270%;
+      width: 50%;
+  }
+
+
+  .azul{
+      display: flex;
+      flex-direction: column;
+      /*align-items: center;*/
+      justify-content: center;
+      width: 100%;
+      height: 50%;
+      background-color: #080C3A;
+      border-radius: 20px;
+      border: solid;
+      border-color: #ffffff;
+      border-width: 2px;
+      margin-left: -0%;
+      margin-top: 0%; 
+  }
+
+
+  #carrobranco{
+      /*max-width: 100%;
+      padding-top: 100%;
+      margin-left: 28%;
+      /* margin-right: 60%;
+      margin-top: -180%; 
+      position: relative;*/
+      width: 48%;
+      float: left;
+      margin-top: -200px;
+  }
+
+  .container-logo p{
+      width: 30%;
+      margin-right: 52px;
+      float: right;
+      margin-top: -168px;
+  }
+
+  .parte-branca{
+      /*display: flex;
+      flex-direction: column;*/
+      width: 120%;
+      height: 30%;
+      justify-content: center;
+      align-items: center;  
+  }
+
+
+  #solicite_agendamento {
+      color: #FF5C00;
+      font-family: "Poppins", sans-serif;
+      width: 90%;
+      font-style: normal;
+      margin-left: 11%;
+      margin-top: 10%;
+      font-size: larger;
+
+  }
+
+
+
+
+
+  form{
+
+      display: flex;
+      flex-direction: column;
+      margin-left: 33px;
+      margin-right: 33px;
+      margin-top: 30px;
+      /*justify-content: center;*/
+      /*margin-left: -38%;*/
+
+
+  }
+
+  #text-agende{
+      color: white;
+      font-size: larger;
+      font-family: "Poppins", sans-serif;
+      font-size: 10px;
+
+      /* margin-top: 40%;
+      margin-right: -60%; */
+      margin-top: -20px;
+
+
+  }
+
+  ::placeholder{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+  }
+
+
+  #txt-dados1{
+      color: white;
+      font-size: 10px;
+      margin-left: 20px;
+      text-align: center;
+
+  }
+
+
+
+  #inputs-form{
+
+     color: orangered;
+     text-align: center;
+     font-size: larger;
+     font-family: "Poppins", sans-serif;
+     font-weight: 900;
+     font-style: normal;
+     margin-top: 1000%;
+     padding: 40px;
+  }
+
+
+  input{
+      margin: 7px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 100%;
+      border-style: groove;
+      border-color: rgb(148, 148, 148);
+
+  }
+
+  input-form{
+      /* text-align: left;
+      /*position: absolute;*/
+      /* padding: 10px; */
+      /*left: 48%;
+      top: 189px;*/
+      /* border-radius: 16px;
+      text-align: 20%;
+      padding-left: 50px;
+      padding-right: 50px;
+      width: 20%;
+      margin-left: 87%;
+      margin-top: 2%; */
+
+
+  }
+
+
+  #cadastrar{
+      background-color: #FF5C00;
+      color: white;
+      padding: 10px;
+      border-radius: 12px;
+      cursor: pointer;
+      border-width: 0px;
+      font-family: "Poppins", sans-serif;
+         font-weight: 900;
+         font-style:initial;
+
+      margin-left: 36%;
+
+
+  }
+  #cadastrar:hover{
+      transition: 0.5s all;
+      background-color:rgb(8, 12, 58);
+      color: #ffffff;
+  }
+
+
+}

@@ -1,0 +1,217 @@
+body{
+
+
+    background-image: url(../img/fundotela2.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: rgb(190, 190, 190);
+    font-family: 'Gabarito', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Prompt', sans-serif;
+    background-color: rgb(219, 210, 210);
+
+@font-face {
+    font-family: 'Gabarito', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+}
+
+.azul{
+    position: absolute;
+    width: 287px;
+    height: 595px;
+    background-color: #080C3A;
+    top: 16%;
+    right: 50%;
+    border-radius: 10px;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+
+}
+
+#carrobranco {
+
+    position: absolute;
+    width: 178px;
+    right: 62%;
+    top: 9%;
+
+}
+
+
+
+.brancaa{
+    position: absolute;
+    width: 29%;
+    height: 600px;
+    background-color: #FFFFFF;
+    top: 16%;
+    right: 22%;
+    border-radius: 20px;
+
+}
+
+
+
+#text-novo-usuario{
+    position: absolute;
+    top: 21%;
+    left: 35%;
+    color: white;
+    font-size: larger;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+#txt-dados{
+    position: absolute;
+    top: 44%;
+    left: 30%;
+    color: white;
+}
+
+#text-cadastro-de-empresa{
+
+   position: absolute;
+    top: 40px;
+    margin-left: 78px;
+   color: orangered;
+   font-size: larger;
+   font-family: "Poppins", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+}
+
+
+.inputs-form{
+    position: absolute;
+    top: 28%;
+    right: 40%;
+}
+
+.input-form{
+    text-align: left;
+    /*position: absolute;*/
+    padding: 10px;
+    /*left: 48%;
+    top: 189px;*/
+    border-radius: 16px;
+    text-align: 20%;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 20%;
+    margin-left: 87%;
+    margin-top: 3%;
+}
+
+
+#cadastrar{
+    background-color: #FF5C00;
+    color: white;
+    position: absolute;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    border-radius: 12px;
+    text-align: 26%;
+    cursor: pointer;
+    top: 106%;
+    left: 99%;
+    border-width: 0px;
+    font-family: "Poppins", sans-serif;
+       font-weight: 900;
+       font-style:initial;
+
+
+}
+#cadastrar:hover{
+    transition: 0.5s all;
+    background-color:rgb(8, 12, 58);
+    color: #ffffff;
+}
+/*
+#senha-empresa{
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    left: 55%;
+    border-radius: 16px;
+    text-align: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30%;
+}
+
+#inp-senha{
+    padding: 10px;
+    border-radius: 16px;
+    text-align: 26%;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: none;
+}
+
+
+.btn-solicitar{
+    padding: 10px;
+    border-radius: 16px;
+    text-align: 26%;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: orangered;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+
+}
+
+
+.btn-solicitar:hover{
+    background-color: white;
+    color: orangered;
+    border-color: orangered;
+
+
+}
+
+
+
+.btn-esqueceu-senha{
+
+    background-color: white;
+    color: orangered;
+    border-color: orangered;
+    font-size: medium;
+    top: 90%;
+    left: 50%;
+    cursor: pointer;
+}
+#esq-senha{
+    color: orangered;
+    position: absolute;
+    top: 60%;
+    right: 24%;
+    font-size: small;
+
+}
+#esq-senha:hover{
+    cursor: pointer;
+    font-size: smaller;
+}
+*/

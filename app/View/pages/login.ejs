@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login_cliente.css">
+     <script type="text/javascript" src="script.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="laranjaa">
+
+    </div>
+    <div class="brancaa">
+
+    </div>
+    <!--Responsividade-->
+
+    <!--Responsividade-->
+
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Pixelify+Sans&family=Prompt:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <!--Fim fonte-->
+
+
+    <section hidden id='ret'>
+        <input type="text" value="<%=retorno%>" width=200px />
+         <%- include('./modal/modalCadastro') %>
+    </section>
+    <% if(retorno == "ok"){%>
+         <script>
+     
+             setTimeout(EsconderModal, 3000);
+                
+              function EsconderModal() {
+                  modal.hidden = true;
+              }            
+      </script>
+     <%} %>
+         <div id="parte-laranja">
+                <label for="text-Login" id="txt-login"> <strong>Login </strong></label>
+            </div>
+            <IMG src="../img/carrobrancosemfundo.png" id="iconecarro" width="150"></IMG>
+            <div>
+                <p id="txt-paragraph-login">Faça seu login <br> para ver seu <br> histórico, <br> avaliações e <br> muito mais.</p>
+
+                <a href="cadastrocliente"><p id="txt-paragraph-cadastro">Cadastre sua <br> empresa aqui!</p></a>
+    </div>
+
+
+
+
+
+        <div id="parte-branca">
+            <label for="text-entre-na-sua-conta" id="text-entre-na-sua-conta"> <b>ENTRE NA SUA CONTA</b></label>
+            <div class="inputs-form">
+
+                <form action="/Login" method="post">
+
+                    <input id="inp-email-cpf" type="text" name="login" placeholder="CPF/CNPJ" required> <br> <br>
+                    <input id="inp-senha" type="password" name="senha" placeholder="Senha" required> <br> <br>
+
+                
+                    <input type="submit" value="ENTRAR" class="btn-login-form"/>
+            <div>
+
+    </div>
+
+    </div>
+    <!---- <label for="esq-senha" id="esq-senha" >Esqueceu sua senha? Clique aqui! <a href="https://teams.microsoft.com/"></a></label> --->
+
+            <a href="./recuperarsenha"><p id="txt-paragraph-recuperar-senha">Esqueceu sua senha? Clique aqui!</p></a>
+
+
+
+</form>
+        </div>
+     </body>

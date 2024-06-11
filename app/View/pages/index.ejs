@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/c71d8789e3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/MicrosoftTeams-image.png">
+    <title>Dream Car</title>
+</head>
+
+<body>
+    <div class="menu">
+        <header>
+            <a href="index.html"><img src="../img/carrobrancosemfundo.png" alt="logo" class="IMG25"></a>
+
+            <ul>
+
+                <li><a href="#titulo3">Serviços</a></li>
+
+
+                <li><a href="/agendamento">Agendamento</a></li>
+
+
+                <li><a href="#minititulo">Quem Somos</a></li>
+
+
+                <li>
+                    <a href="./cadastrocliente">Cadastre-se</a>
+                </li>
+
+
+            </ul>
+            <a href="./login"><i class="fa-solid fa-user" style="color: #ffffff;" id="icon"></i></a>
+
+
+        </header>
+    </div>
+
+
+    <main>
+        <div class="slider">
+
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+
+
+                <div class="slide first"> <img src="../img/esteticista-automotivo1.webp" alt="imagem 1">
+                </div>
+                <div class="slide"><img src="../img/estetica-automotiva 2.png" alt="imagem 2 "></div>
+                <div class="slide"><img src="../img/estetica-automotiva 3.png" alt="imagem 3"></div>
+                <div class="navegador">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+
+            </div>
+
+            <div class="manual-navegador">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+
+
+        <h1 class="primeirotexto">BEM VINDO A DREAM CAR!</h1>
+        <div class="texto1">
+            <p>ㅤAqui você encontrará as melhores oficinas de estética <br> automotiva, que irão te proporcionar serviços
+                de qualidade <br>ㅤㅤㅤㅤㅤㅤㅤㅤㅤpelos melhores preços.</p>
+        </div>
+
+        <div class="titulo2">
+            <h1>Solicite seu orçamento abaixo:</h1>
+        </div>
+
+        <h2>CEP:</h2>
+
+        <form action="cep_servicos">
+            <input type="text" placeholder="0000-0000" id="cep_caixa">
+            <!--<i class="fa-solid fa-magnifying-glass" style="color: #ff5c00;"></i> -->
+            <div class="subtitulo"><br>
+                <h2>Escolha os serviços desejados:</h2>
+
+                <div class="primeira_coluna" id="primeira_coluna"></div>
+
+                <input type="checkbox" id="vitrificacao" name="servico" value="Vitrificação">
+                <label for="vitrificacao">Vitrificação</label><br>
+
+                <input type="checkbox" id="cristalizacao_vidros" name="servico" value="Cristalização de Vidros">
+                <label for="cristalizacao_vidros">Cristalização de Vidros</label><br>
+
+                <input type="checkbox" id="polimentodefarol" name="servico" value="Polimento de Farol">
+                <label for="polimentodefarol">Polimento de Farol</label><br>
+
+                <input type="checkbox" id="higienizacao_interna" name="servico" value="Higienização Interna">
+                <label for="higienizacao_interna">Higienização Interna</label><br>
+
+                <input type="checkbox" id="martelinho_de_ouro" name="servico" value="Martelinho de Ouro">
+                <label for="martelinho_de_ouro">Martelinho de Ouro</label><br>
+
+                <input type="checkbox" id="espelhamento_pintura" name="servico" value="Espelhamento de pintura">
+                <label for="espelhamento_pintura">Espelhamento de pintura</label><br>
+
+                <input type="checkbox" id="limpeza_ar_condicionado" name="servico" value="Limpeza de ar condicionado">
+                <label for="limpeza_ar_condicionado">Limpeza de ar condicionado</label><br>
+
+                <input type="checkbox" id="hidratacao_bancos_couros" name="servico" value="Hidratação de bancos de couro">
+                <label for="hidratacao_bancos_couros">Hidratação de bancos de couro</label><br>
+
+            </div>
+
+            <div class="segunda_coluna" id="segunda_coluna">
+
+                <input type="checkbox" id="protecao_antiferrugem" name="servico" value="Proteção Antiferrugem">
+                <label for="protecao_antiferrugem">Proteção Antiferrugem</label><br>
+
+                <input type="checkbox" id="revitalizacao_tapetes_carpetes" name="servico" value="Revitalização de Tapetes e Carpetes">
+                <label for="revitalizacao_tapetes_carpetes">Revitalização de Tapetes e Carpetes</label><br>
+
+                <input type="checkbox" id="servicos_personalizacao" name="servico" value="Serviços de Personalização">
+                <label for="servicos_personalizacao">Serviços de Personalização</label><br>
+
+                <input type="checkbox" id="polimento_rodas" name="servico" value="Polimento de Rodas">
+                <label for="polimento_rodas">Polimento de Rodas</label><br>
+
+                <input type="checkbox" id="lavagem_seco" name="servico" value="Lavagem a Seco">
+                <label for="lavagem_seco">Lavagem a Seco</label><br>
+
+                <input type="checkbox" id="remocao_adesivos_colas" name="servico" value="Remoção de Adesivos e Colas">
+                <label for="remocao_adesivos_colas">Remoção de Adesivos e Colas</label><br>
+
+                <input type="checkbox" id="limpeza_trilhos_porta" name="servico" value="Limpeza de Trilhos de Porta">
+                <label for="limpeza_trilhos_porta">Limpeza de Trilhos de Porta</label><br>
+
+                <input type="checkbox" id="servicos_protecao_chuva_acida" name="servico" value="Serviços de Proteção contra Chuva Ácida">
+                <label for="servicos_protecao_chuva_acida">Serviços de Proteção contra Chuva Ácida</label><br>
+            </div>
+                <br>
+               <!-- <input type="submit" value="CONTINUAR" id="botao"> -->
+                <a href="agendamentoempresa"><p id="botao">CONTINUAR</p></a>
+            </form>
+
+
+
+
+            <!--
+            <input list="browsers" placeholder="Troca de Óleo">
+            <!--<i class="fa-solid fa-cart-shopping" style="color: #ff5c00;"></i>--
+            <datalist id="browsers">
+                <option value="Troca de Óleo">
+                <option value="Vitrificação">
+                <option value="Cristalização de Vidros">
+                <option value="Polimento de Farol">
+                <option value="Higienizaçaõ Interna">
+                <option value="Martelinho de Ouro">
+                <option value="Espelhamento de pintura">
+                <option value="Limpeza de ar condicionado">
+                <option value=" Hidratação de bancos de couro">
+                <option value=" Proteção Antiferrugem">
+                <option value=" Revitalização de Tapetes e Carpetes">
+                <option value=" Serviços de Personalização">
+                <option value="Polimento de Rodas">
+                <option value=" Lavagem a Seco">
+                <option value="Remoção de Adesivos e Colas">
+                <option value="Limpeza de Trilhos de Porta">
+                <option value="Serviços de Proteção contra Chuva Ácida">
+            </datalist>
+
+            <br>
+            <input type="submit" value="Continuar" id="botao" href
+            >
+        </form> -->
+
+
+
+
+
+
+
+        <br>
+
+        <hr>
+
+        <br>
+        <br>
+
+        <h1 id="minititulo">CONHEÇA A DREAM CAR</h1>
+
+        <div class="img1">
+            <img src="../img/Imagem1.png" alt="" width="400px" height="400px">
+            <p id="texto2">Na Dream Car, estamos redefinindo o padrão do setor, nossas parcerias com <br> especialistas
+                em estética
+                automotiva e tecnologias avançadas garantem que você <br> receba o melhor serviço possível.
+                <br>
+                <br>
+                Junte-se a nós e faça parte da revolução Dream Car.
+            </p>
+
+        </div>
+
+        <div class="img2">
+            <p id="texto3">A estética automotiva é mais do que <br> uma simples lavagem; é um ato de carinho dedicado ao
+                seu veículo.
+                Nossos especialistas cuidam de cada detalhe, desde o interior até a pintura e lataria. </p>
+
+            <img src="../img/imagem2.png" alt="" width="400px" height="400px">
+
+        </div>
+
+        <div class="img3">
+
+            <img src="../img/Imagem3.png" alt="" width="400px" height="400px">
+            <p id="texto4">A Dream Car é sua porta de entrada para o mundo da estética automotiva de qualidade. <br>
+                Seja para dar um toque de brilho e elegância ao seu carro <br> ou para garantir sua durabilidade,
+                estamos
+                aqui para atender às suas necessidades.</p>
+
+        </div>
+        <br>
+        <br>
+
+        <hr>
+        <br>
+        <h1 id="titulo3">SERVIÇOS OFERECIDOS
+            POR NOSSAS EMPRESAS:</h1>
+        <div class="lista1">
+
+            <li>Vitrificação</li>
+
+            <li>Cristalização de Vidros</li>
+            <li>Polimento de Farol</li>
+            <li>Higienização Interna</li>
+            <li>Martelinho de Ouro</li>
+            <li>Espelhamento de pintura</li>
+            <li>Limpeza de ar condicionado</li>
+            <li>Hidratação de bancos de couro</li>
+            <li>Proteção Antiferrugem</li>
+            <li>Revitalização de Tapetes e Carpetes</li>
+            <li>Serviços de Personalização</li>
+            <li>Polimento de Rodas</li>
+            <li> Lavagem a Seco</li>
+            <li> Remoção de Adesivos e Colas</li>
+            <li> Limpeza de Trilhos de Porta</li>
+            <li> Serviços de Proteção contra Chuva Ácida</li>
+
+        </div>
+
+
+
+
+        <br>
+        <br>
+
+        <hr>
+
+
+
+
+    </main>
+    <footer>
+
+        <div class="rodape">
+            <p>Endereço: Rua Abelardo Luz,274
+                <br>
+                Telefone: (11) 94936-9984
+                <br>
+                email: contato@dremcar.com.br
+            <p>
+        </div>
+
+
+
+
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

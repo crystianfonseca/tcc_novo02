@@ -1,0 +1,53 @@
+@media screen  and (max-width: 414px) {
+    *{
+        width: 414px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .navegador{
+        display: none;
+    }
+
+    .manual-btn1{
+        display: none;
+    }
+
+    .manual-btn2{
+        display: none;
+    }
+
+    .manual-btn3{
+        display: none;
+    }
+
+    .auto-btn1{
+        display: none;
+    }
+
+    .auto-btn2{
+        display: none;
+    }
+
+    .auto-btn3{
+        display: none;
+    }
+
+    body{
+        flex-direction: column-reverse;
+    }
+
+    .primeirotexto{
+        margin-left: 0%;
+        text-align: left;
+
+    }
+
+
+
+
+
+
+}

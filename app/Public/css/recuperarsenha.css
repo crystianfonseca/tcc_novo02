@@ -1,0 +1,372 @@
+body{
+  background-image: url(../img/fundotela2.png);
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  font-family: 'Gabarito', cursive;
+  font-family: 'Pixelify Sans', cursive;
+  font-family: 'Prompt', sans-serif;
+
+
+@font-face {
+  font-family: 'Gabarito', cursive;
+  font-family: 'Pixelify Sans', cursive;
+  font-family: 'Prompt', sans-serif;
+}
+
+}
+
+
+
+.laranjaa{
+  position: absolute;
+  width: 280px;
+  height: 375px;
+  background-color: #080c3a;
+  top: 16%;
+  right: 48%;
+  border-radius: 10px;
+  left: 22%;
+  border: solid;
+  border-color: #FFFFFF;
+  border-width: 2px;
+}
+.brancaa{
+  position: absolute;
+  width: 430px;
+  padding-left: 0.10%;
+  height: 380px;
+  background-color: #FFFFFF;
+  top: 16%;
+  right: 28%;
+  border-radius: 10px;
+
+
+}
+#img-logo{
+  border-radius: 26px;
+  cursor: pointer;
+
+}  
+
+#iconecarro{
+  position: absolute;
+  top: 9%;
+  left: 19%;
+  color: rgb(255, 255, 255);
+  width: 178px;
+}
+
+
+#text-recupere-senha{
+  position: absolute;
+  left: -38px;
+  color: rgba(123, 123, 122, 1);
+  text-align: center;
+  top: -52px;
+  height: 100px;
+  width: 394px;
+}
+
+#txt-login{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  color: rgb(255, 255, 255);
+}
+
+#txt-paragraph-login{
+  position: absolute;
+  top: 36%;
+  left: 23%;
+  color: rgb(255, 255, 255);
+}
+#txt-paragraph-cadastro{
+  position: absolute;
+  top: 62%;
+  left: 23%;
+  color: #ffffff;    
+  text-decoration: underline;
+
+}
+#txt-paragraph-cadastro:hover{
+  cursor: pointer;
+  color: wheat   ;
+  transition: 0.7s all;
+}
+#btn-entrar{
+  background-color: #FF5C00;
+  color:white ;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: white;
+  position: absolute;
+  top: 70%;
+  left: 26%;
+  cursor: pointer;    
+}
+#btn-entrar:hover{
+  background-color: white;
+  color: orangered;
+  border-color: orangered;
+}
+
+#text-entre-na-sua-conta{
+  position: absolute;
+  top: 24%;
+  right: 36%;
+  color: white;
+  color: rgba(123, 123, 122, 1);;
+  font-size: larger;
+      font-family: "Poppins", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+
+
+}
+.inputs-form{
+  position: absolute;
+  top: 35%;
+  right: 35%;
+
+
+}
+#cpf{    
+  padding: 10px;
+  border-radius: 16px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 65px;
+  border-style: groove;
+
+
+}
+
+#inp-senha{
+  padding: 10px;
+  border-radius: 16px;
+  text-align: 26%;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+.btn-login-form{
+  position: absolute;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: 26%;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: orangered;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+  right: 18%;
+  top: 110%;
+  font-size: small;
+     font-family: "Poppins", sans-serif;
+
+}
+.btn-login-form:hover{
+  background-color: white;
+  color: orangered;
+  border-color: orangered;
+  transition: 0.9s all;
+
+}
+
+.btn-esqueceu-senha{
+
+  background-color: white;
+  color: orangered;
+  border-color: orangered;
+  font-size: medium;
+  top: 90%;
+  left: 50%;
+  cursor: pointer;
+}
+#esq-senha{
+  color: orangered;
+  position: absolute;
+  top: 65%;
+  left: 46%;
+  font-size: small;
+
+}
+#esq-senha:hover{
+  cursor: pointer;
+  font-size: smaller;
+}
+
+/* Responsividade */
+
+@media screen and (max-width : 900px){
+  body{
+
+      background-color: #080c3a;
+      font-family: 'Gabarito', cursive;
+      font-family: 'Pixelify Sans', cursive;
+      font-family: 'Prompt', sans-serif;
+  }
+  .laranjaa{
+      position: absolute;
+      width: 50%;
+      height: 45%;
+      background-color: #080C3A;
+      top: 11%;
+      right: 20%;
+      border-radius: 10px;
+  }
+
+  .brancaa{
+      position: absolute;
+      width: 50%;
+      height: 35%;
+      background-color: #FFFFFF;
+      top: 45%;
+      right: 20%;
+      border-radius: 10px;
+
+  }
+  #img-logo{
+      border-radius: 26px;
+      cursor: pointer;
+
+  }
+
+
+  #txt-login{
+      position: absolute;
+      top: 15%;
+      left: 40%;
+      color: white;
+  }
+
+  #txt-paragraph-cadastro{
+      position: absolute;
+      top: 37%;
+      left: 38%;
+      color: #FF5C00;
+  }
+  .topics{
+      position: absolute;
+      top: 0%;
+      right: 1%;  
+      text-align: center;
+  }
+  #txt-paragraph-login{
+      position: absolute;
+      top: 18%;
+      left: 40%;
+      color: white;
+      font-size: large;
+  }
+  #btn-entrar{
+      background-color: #FF5C00;
+      color:white ;
+      border-radius: 50px;
+      padding: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border-color: white;
+      position: absolute;
+      top: 70%;
+      left: 26%;
+      cursor: pointer;    
+  }
+  #btn-entrar:hover{
+      background-color: white;
+      color: orangered;
+      border-color: orangered;
+  }
+
+  #text-entre-na-sua-conta{
+      position: absolute;
+      top: 49%;
+      right: 28%;
+      color: white;
+      color: orangered;
+
+
+
+  }
+  .inputs-form{
+      position: absolute;
+      top: 55%;
+      left: 30%;
+      margin-left: none;
+      border: none;
+
+
+  }
+  #inp-email-cpf{    
+      position: absolute;
+      padding: 10px;
+      left: 5%;
+      border-radius: 16px;
+      text-align: 20%;
+      padding-left: 75px;
+      padding-right: 75px;
+      width: 30%;
+      margin-left: 10%;
+  }
+  #inp-senha{
+      left: 5%;
+      position: absolute;
+      padding: 10px;
+      border-radius: 16px;
+      text-align: initial;
+      padding-left: 75px;
+      padding-right: 75px;
+      width: 30%;
+      margin-left: 10%;
+  }
+  .btn-login-form{
+
+      top: 140%;
+      position: absolute;
+      padding: 11px;
+      border-radius: 16px;
+      text-align: 26%;
+      background-color: orangered;
+      color: white;
+      border-color: white;
+      cursor: pointer;
+      left: auto;
+
+
+  }
+  .btn-login-form:hover{
+      background-color: white;
+      color: orangered;
+      border-color: orangered;
+
+  }
+
+  .btn-esqueceu-senha{
+
+      background-color: white;
+      color: orangered;
+      border-color: orangered;
+      font-size: medium;
+      top: 90%;
+      left: 50%;
+      cursor: pointer;
+  }
+  #esq-senha{
+      color: orangered;
+      position: absolute;
+      top: 66%;
+      right: 21%;
+
+
+  }
+  #esq-senha:hover{
+      cursor: pointer;
+
+  }
+}

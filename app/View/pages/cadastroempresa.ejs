@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastroempresa.css">
+    <script src="agendamento.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito&family=Pixelify+Sans&family=Prompt:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+
+    <!--Fim fonte-->
+</head>
+<body>
+    <section id="cartao">
+        <div class="azul">
+            <div class="container-logo">
+                <img src="../img/carrobrancosemfundo.png" id="carrobranco">
+                <p><strong id="text-agende">NOVO CADASTRO </strong></p>
+            </div>
+            <p id="txt-dados1">Junte-se a Dream Car e tenha mais visibilidade e alcançe de clientes</p>
+        </div>
+        
+        <div class="parte-branca">
+            <p id="solicite_agendamento">CADASTRO DE EMPRESA</p>
+            <div class="inputs-form">
+                <form action="/CadastroEmpresa" method="post">
+                    <input type="text" name="nome" id="nome"  class="input-form" placeholder="Nome da Empresa">
+                    <input type="text" name="cnpj" id="cnpj" class="input-form" placeholder="CNPJ">
+                    <input type="email" name="email" id="email" class="input-form" placeholder="Email">
+                    <input type="text" name="cep" id="cep" class="input-form" placeholder="CEP">
+                     <input type="text" name="rua" id="rua" class="input-form" placeholder="RUA">
+                     <input type="text" name="number" id="number" class="input-form" placeholder="Número">
+                    <!--
+                <input list="browsers" class="input-form" placeholder="Selecione seu veículo">
+                <datalist id="browsers">
+                    <option value="Volkswagen Gol">
+                    <option value="Chevrolet Onix">
+                    <option value="Fiat Strada">
+                    <option value="Fiat Palio">
+                    <option value="Toyota Corolla">
+                    <option value="Chevrolet S10">
+                    <option value="Hyundai HB20">
+                    <option value="Hyundai HB20">
+                    <option value="Volkswagen Saveiro">
+                    <option value="Renault Sandero">
+                    <option value="Fiat Toro">
+                    <option value="Volkswagen Polo">
+                    <option value="Toyota Hilux">
+                    <option value="Chevrolet Tracker">
+                    <option value="Celta">
+                    <option value="Nissan Kicks">
+                    <option value="Ford EcoSport">
+                    <option value="Volkswagen Gol">
+ 
+ 
+                </datalist > -->
+
+
+                    <input type="text" name="telefone" id="telefone" class="input-form" placeholder="Telefone">
+
+                    <input type="password" name="senha" id="senha" class="input-form" placeholder="Senha">
+
+<p id="serviços_oferecidos">Quais são os serviços oferecidos pela empresa?</p>
+
+ <div class="coluna1" id="coluna1">
+ 
+<input type="checkbox" id="vitrificacao" name="servico" value="Vitrificação"> <label for="vitrificacao">Vitrificação</label><br>
+                   
+<input type="checkbox" id="cristalizacao_vidros" name="servico" value="Cristalização de Vidros">
+<label for="cristalizacao_vidros">Cristalização de Vidros</label><br>
+         
+<input type="checkbox" id="Polimento de Farol" name="servico" value="Polimento de Farol"> <label for="polimentodefarol">Polimento de Farol</label><br>
+                       
+<input type="checkbox" id="higienizacao_interna" name="4" value="Higienização Interna">
+<label for="higienizacao_interna">Higienização Interna</label><br>
+                   
+<input type="checkbox" id="martelinho_de_ouro" name="servico" value="Martelinho de Ouro">
+<label for="martelinho_de_ouro">Martelinho de Ouro</label><br>
+                   
+ <input type="checkbox" id="espelhamento_pintura" name="servico" value="Espelhamento de pintura">
+<label for="espelhamento_pintura">Espelhamento de pintura</label><br>
+                   
+<input type="checkbox" id="limpeza_ar_condicionado" name="servico" value="Limpeza de ar condicionado">
+<label for="limpeza_ar_condicionado">Limpeza de ar condicionado</label><br>
+                       
+<input type="checkbox" id="hidratacao_bancos_couros" name="servico" value="Hidratação de bancos de couro">
+<label for="hidratacao_bancos_couros">Hidratação de couro</label><br>
+                   
+                   
+<input type="checkbox" id="protecao_antiferrugem" name="servico" value="Proteção Antiferrugem">
+<label for="protecao_antiferrugem">Proteção Antiferrugem</label><br>
+                   
+<input type="checkbox" id="revitalizacao_tapetes_carpetes" name="servico" value="Revitalização de Tapetes e Carpetes">
+<label for="revitalizacao_tapetes_carpetes">Revitalização de Carpetes</label><br>
+                   
+<input type="checkbox" id="servicos_personalizacao" name="servico" value="Serviços de Personalização">
+<label for="servicos_personalizacao">Serviços de Personalização</label><br>
+                   
+<input type="checkbox" id="polimento_rodas" name="servico" value="Polimento de Rodas">
+<label for="polimento_rodas">Polimento de Rodas</label><br>
+                   
+<input type="checkbox" id="lavagem_seco" name="servico" value="Lavagem a Seco">
+<label for="lavagem_seco">Lavagem a Seco</label><br>
+                   
+<input type="checkbox" id="remocao_adesivos_colas" name="servico" value="Remoção de Adesivos e Colas">
+<label for="remocao_adesivos_colas">Remoção de Adesivos e Colas</label><br>
+                   
+<input type="checkbox" id="limpeza_trilhos_porta" name="servico" value="Limpeza de Trilhos de Porta">
+<label for="limpeza_trilhos_porta">Limpeza de Trilhos de Porta</label><br>
+                   
+<input type="checkbox" id="servicos_protecao_chuva_acida" name="servico" value="Serviços de Proteção contra Chuva Ácida">
+<label for="servicos_protecao_chuva_acida">Proteção contra Chuva Ácida</label><br>
+
+ </div>
+               
+    
+<input type="submit" id="cadastrar" value="Cadastrar" />
+                
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html> 

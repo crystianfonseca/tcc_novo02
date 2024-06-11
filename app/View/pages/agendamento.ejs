@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="../css/agendamento.css">
+    <script src="agendamento.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito&family=Pixelify+Sans&family=Prompt:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+
+    <!--Fim fonte-->
+</head>
+<body>
+    <section id="cartao">
+        <div class="azul">
+            <div class="container-logo">
+                <img src="../img/carrobrancosemfundo.png" id="carrobranco">
+                <p><strong id="text-agende">AGENDE AQUI!  </strong></p>
+            </div>
+            <p id="txt-dados1">Preencha os dados ao lado para solicitar o seu agendamento de serviços</p>
+        </div>
+        <div class="parte-branca">
+            <p id="solicite_agendamento">SOLICITE SEU AGENDAMENTO</p>
+            <div class="inputs-form">
+                <form action="get" method="post">
+                    <input type="text" class="input-form" placeholder="CEP">
+                    <input type="text" class="input-form" placeholder="Nome Completo">
+                    <input type="datetime-local" class="input-form" placeholder="Data e horário">
+                    <input type="text" class="input-form" placeholder="Seu veículo">
+                    <!--
+                <input list="browsers" class="input-form" placeholder="Selecione seu veículo">
+                <datalist id="browsers">
+                    <option value="Volkswagen Gol">
+                    <option value="Chevrolet Onix">
+                    <option value="Fiat Strada">
+                    <option value="Fiat Palio">
+                    <option value="Toyota Corolla">
+                    <option value="Chevrolet S10">
+                    <option value="Hyundai HB20">
+                    <option value="Hyundai HB20">
+                    <option value="Volkswagen Saveiro">
+                    <option value="Renault Sandero">
+                    <option value="Fiat Toro">
+                    <option value="Volkswagen Polo">
+                    <option value="Toyota Hilux">
+                    <option value="Chevrolet Tracker">
+                    <option value="Celta">
+                    <option value="Nissan Kicks">
+                    <option value="Ford EcoSport">
+                    <option value="Volkswagen Gol">
+ 
+ 
+                </datalist > -->
+
+
+                    <input type="text" class="input-form" placeholder="Telefone">
+
+                    <input type="email" class="input-form" placeholder="E-mail">
+
+                    <input type="text" class="input-form" placeholder="Há peças delicadas no veículo?"> <br>
+
+                   
+                    <!--
+                        <button class="btn-solicitar"><b>SOLICTAR</b> </button>
+                    -->
+                </form>
+                 <a href="../pages/login.html"><button id="cadastrar"><strong>SOLICITAR</strong></button></a>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html> 

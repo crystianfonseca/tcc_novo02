@@ -1,0 +1,493 @@
+body{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#empresas-h1{
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+    }
+
+
+
+#fozzy-h3{
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+#img-tres-irm{
+  border-radius: 40px;
+  height: 305px;
+  margin-top: -1%;
+  margin-left: -5%;
+
+
+}
+
+#fieldset-tres{
+  width: 650px;
+  height: 288px;
+  margin: 2%;
+  margin-top: 2%;
+  padding-left: 2%;
+  border-radius: 40px;
+}
+
+
+
+#label-data{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 34%;
+  left: 31%;
+}
+
+#label-servicos{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 44%;
+  left: 31%;
+}
+
+#label-local{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 55%;
+  left: 31%;
+}
+
+#label-valor{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 66%;
+  left: 31%;
+}
+
+#label-status{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 76%;
+  left: 31%;
+}
+
+
+
+
+#elementos-img{
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  top: 34%;
+  left: 27.9%;
+
+
+
+
+}
+
+
+
+#btn-agendar{
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  background-color: #FF5C00;
+  color: white;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px;
+  font-size: small;
+  cursor: pointer;
+  left: 47%;
+  top: 74%;
+  height: 17px;
+  text-decoration: none;
+}
+
+#btn-agendar:hover{
+  background-color: rgb(8, 12, 58)    ;
+  color: rgb(255, 255, 255);
+  transition: all, 1s;
+  border: 5px;
+
+
+}
+
+/*CARGLASS AUTOMÓVEIS*/
+
+
+#carglass-h3{
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+#img-data-glas{
+  border-radius: 40px;
+  height: 305px;
+  margin-top: -1%;
+  margin-left: -5%;
+}
+
+#img-carglass{
+  border-radius: 40px;
+  height: 305px;
+  margin-top: -1%;
+  margin-left: -5%;
+}
+
+
+
+#fozzy-h3{
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+#fieldset-carglass{
+  width: 650px;
+  height: 288px;
+  margin: 2%;
+  margin-top: 2%;
+  padding-left: 2%;
+  border-radius: 40px;
+}
+
+
+#label-data-glass{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 100%;
+  left: 31%;
+}
+
+#label-servicos-glass{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 110%;
+  left: 31%;
+}
+
+#label-local-glass{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 121%;
+  left: 31%;
+}
+
+#label-valor-glass{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 132%;
+  left: 31%;
+}
+
+#label-status-glass{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 142%;
+  left: 31%;
+}
+
+#elementos-img-glass{
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  top: 100%;
+  left: 27.9%;
+
+
+
+
+}
+
+#btn-agendar-glass{
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  background-color: #FF5C00;
+  color: white;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px;
+  font-size: small;
+  cursor: pointer;
+  left: 47%;
+  top: 140%;
+  height: 17px;
+  text-decoration: none;
+}
+
+#btn-agendar-glass:hover{
+  background-color:rgb(8, 12, 58);
+  color: rgb(255, 255, 255);
+  transition: all, 1s;
+  border: 5px;
+
+}
+
+/*JONAS CARROS*/
+
+
+#jonas-h3{
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+#img-data-jonas{
+  position: absolute;
+  top: 150%;
+}
+
+#img-jonas{
+  border-radius: 40px;
+  height: 305px;
+  margin-top: -1%;
+  margin-left: -5%;
+
+}
+
+
+
+#fozzy-h3{
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+#fieldset-jonas{
+  width: 650px;
+  height: 288px;
+  margin: 2%;
+  margin-top: 2%;
+  padding-left: 2%;
+  border-radius: 40px;
+}
+
+
+#label-data-jonas{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 162%;
+  left: 31%;
+
+}
+
+#label-servicos-jonas{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 172%;
+  left: 31%;
+
+}
+
+#label-local-jonas{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 183%;
+  left: 31%;
+
+}
+
+#label-valor-jonas{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 193%;
+  left: 31%;
+
+}
+
+#label-status-jonas{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 204%;
+  left: 31%;
+}
+
+#elementos-img-jonas{
+
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  top: 162%;
+  left: 27.9%;
+
+
+
+
+}
+
+#btn-agendar-jonas{
+
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  background-color: #FF5C00;
+  color: white;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px;
+  font-size: small;
+  cursor: pointer;
+  left: 47%;
+  top: 203%;
+  height: 17px ;
+  text-decoration: none;
+}
+
+#btn-agendar-jonas:hover{
+  background-color: rgb(8, 12, 58);
+  color: rgb(255, 255, 255);
+  transition: all, 1s;
+  border: 5px;
+
+}
+
+
+/*PABLO ESTÉTICA AUTOMOTIVA*/
+
+
+#pablo-h3{
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+#img-data-pablo{
+  position: absolute;
+  top: 150%;
+}
+
+
+
+#pablo-h3{
+  color: #FF5C00;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+#fieldset-pablo{
+  width: 650px;
+  height: 288px;
+  margin: 2%;
+  margin-top: 2%;
+  padding-left: 2%;
+  border-radius: 40px;
+}
+
+#img-pablo{
+  border-radius: 40px;
+  height: 305px;
+  margin-top: -1%;
+  margin-left: -5%;
+}
+
+
+#label-data-pablo{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 225%;
+  left: 31%;
+
+}
+
+#label-servicos-pablo{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 235%;
+  left: 31%;
+
+}
+
+#label-local-pablo{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 246%;
+  left: 31%;
+
+}
+
+#label-valor-pablo{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 256%;
+  left: 31%;
+
+}
+
+#label-status-pablo{
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 267%;
+  left: 31%;
+}
+
+#elementos-img-pablo{
+
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  top: 225%;
+  left: 27.9%;
+
+
+
+
+}
+
+#btn-agendar-pablo{
+
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  background-color: #FF5C00;
+  color: white;
+  margin: 0 auto;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px;
+  font-size: small;
+  cursor: pointer;
+  left: 47%;
+  top: 265%;
+  height: 17px;
+  text-decoration: none   ;
+}
+
+#btn-agendar-pablo:hover{
+  background-color: rgb(8, 12, 58);
+  color: rgb(255, 255, 255);
+  transition: all, 1s;
+  border: 5px;
+
+}
